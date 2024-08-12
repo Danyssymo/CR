@@ -1,0 +1,714 @@
+.text-style-main {
+    position: absolute;
+    top: 20px; /* Расстояние от верхнего края страницы */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px; /* Размер текста */
+    color: white; /* Цвет текста */
+    font-family: 'Pacifico', sans-serif; /* Шрифт (можно заменить на другой) */
+    font-weight: bold; /* Полужирный текст для большей выразительности */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для улучшения читаемости на ярком фоне */
+}
+
+.u-section-1 {
+    background-image: url("http://localhost:8080/IslandPJ_war/resources/img/04c92f4b1888be1f59c0cf8549526806.jpeg");
+    background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+    min-height: 735px;
+}
+
+.u-section-1 .u-text-1 {
+    font-size: 5.625rem;
+    margin: 221px 112px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+    margin: 25px 742px 60px 0;
+}
+
+@media (max-width: 1199px) {
+    .u-section-1 .u-sheet-1 {
+        min-height: 606px;
+    }
+
+    .u-section-1 .u-text-1 {
+        margin-right: 0;
+    }
+
+    .u-section-1 .u-text-2 {
+        margin-right: 542px;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-1 .u-sheet-1 {
+        min-height: 464px;
+    }
+
+    .u-section-1 .u-text-1 {
+        font-size: 6rem;
+    }
+
+    .u-section-1 .u-text-2 {
+        margin-right: 322px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-1 .u-sheet-1 {
+        min-height: 348px;
+    }
+
+    .u-section-1 .u-text-1 {
+        font-size: 3.75rem;
+    }
+
+    .u-section-1 .u-text-2 {
+        margin-right: 142px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-1 .u-sheet-1 {
+        min-height: 219px;
+    }
+
+    .u-section-1 .u-text-1 {
+        font-size: 3rem;
+    }
+
+    .u-section-1 .u-text-2 {
+        margin-right: 0;
+    }
+} .u-section-2 {
+      background-image: none;
+  }
+
+.u-section-2 .u-sheet-1 {
+    min-height: 781px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+    width: 1140px;
+    margin: 96px -16px 60px 16px;
+}
+
+.u-section-2 .u-image-1 {
+    min-height: 625px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('http://localhost:8080/IslandPJ_war/resources/img/photo-1541526855570-9154d61f6a8b.jpeg');
+    background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-1 {
+    padding: 20px 0;
+}
+
+.u-section-2 .u-text-1 {
+    margin: 65px -13px 0 25px;
+}
+
+.u-section-2 .u-btn-1 {
+    --radius: 30px;
+    border-style: solid;
+    margin: 405px auto 0;
+}
+
+.u-section-2 .u-image-2 {
+    background-image: url("http://localhost:8080/IslandPJ_war/resources/img/90e1133b6c2b5237d9ec6eb43f3212f13cdb1a4f1f402656da2ded8ff2487c0bcb0b94846f539bfa6ded72504f911784fc3e258d9c484f02eade37_1280.jpg");
+    min-height: 625px;
+    background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-2 {
+    padding: 30px 0;
+}
+
+.u-section-2 .u-text-2 {
+    margin: 55px 11px 0 36px;
+}
+
+.u-section-2 .u-btn-2 {
+    --radius: 30px;
+    border-style: solid;
+    margin: 405px auto 0;
+}
+
+.u-section-2 .u-image-3 {
+    min-height: 625px;
+    background-image: url("http://localhost:8080/IslandPJ_war/resources/img/486ea5c3b963d3079c03c3c7f0533b2d601659327ba4cdd46887c0d34cf588de7f756db8cfda341ea0144b4f46c057d843f9c056aeb93191891848_1280.jpg");
+    background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-3 {
+    padding: 0;
+}
+
+.u-section-2 .u-text-3 {
+    margin: 85px -44px 0 69px;
+}
+
+.u-section-2 .u-btn-3 {
+    --radius: 30px;
+    border-style: solid;
+    margin: 405px auto 0;
+}
+
+@media (max-width: 1199px) {
+    .u-section-2 .u-sheet-1 {
+        min-height: 734px;
+    }
+
+    .u-section-2 .u-layout-wrap-1 {
+        width: 940px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .u-section-2 .u-image-1 {
+        min-height: 515px;
+    }
+
+    .u-section-2 .u-text-1 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .u-section-2 .u-image-2 {
+        min-height: 515px;
+    }
+
+    .u-section-2 .u-text-2 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .u-section-2 .u-image-3 {
+        min-height: 515px;
+    }
+
+    .u-section-2 .u-text-3 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-2 .u-sheet-1 {
+        min-height: 624px;
+    }
+
+    .u-section-2 .u-layout-wrap-1 {
+        width: 720px;
+    }
+
+    .u-section-2 .u-image-1 {
+        min-height: 394px;
+    }
+
+    .u-section-2 .u-image-2 {
+        min-height: 394px;
+    }
+
+    .u-section-2 .u-image-3 {
+        min-height: 394px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-2 .u-sheet-1 {
+        min-height: 763px;
+    }
+
+    .u-section-2 .u-layout-wrap-1 {
+        width: 540px;
+    }
+
+    .u-section-2 .u-image-1 {
+        min-height: 887px;
+    }
+
+    .u-section-2 .u-image-2 {
+        min-height: 887px;
+    }
+
+    .u-section-2 .u-image-3 {
+        min-height: 887px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-2 .u-sheet-1 {
+        min-height: 562px;
+    }
+
+    .u-section-2 .u-layout-wrap-1 {
+        width: 340px;
+    }
+
+    .u-section-2 .u-image-1 {
+        min-height: 558px;
+    }
+
+    .u-section-2 .u-image-2 {
+        min-height: 558px;
+    }
+
+    .u-section-2 .u-image-3 {
+        min-height: 558px;
+    }
+}.u-section-3 .u-sheet-1 {
+     min-height: 1288px;
+ }
+
+.u-section-3 .u-text-1 {
+    --animation-custom_in-translate_x: -300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    font-size: 3.4375rem;
+    width: 721px;
+    margin: 1px auto 0;
+}
+
+.u-section-3 .u-list-1 {
+    margin-top: 55px;
+    margin-bottom: 60px;
+    grid-template-rows: repeat(1, auto);
+}
+
+.u-section-3 .u-repeater-1 {
+    grid-template-columns: repeat(3, calc(33.3333% - 20px));
+    min-height: 976px;
+    grid-gap: 30px;
+}
+
+.u-section-3 .u-image-1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('http://localhost:8080/IslandPJ_war/resources/img/Untitled-3.jpg');
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+}
+
+.u-section-3 .u-container-layout-1 {
+    padding: 30px;
+}
+
+.u-section-3 .u-line-1 {
+    width: 276px;
+    transform-origin: left center;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+    margin: 0 auto 0 0;
+}
+
+.u-section-3 .u-text-2 {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    --animation-custom_in-scale: 0.3;
+    font-weight: 700;
+}
+
+.u-section-3 .u-text-3 {
+    margin: 12px auto 0 0;
+}
+
+.u-section-3 .u-image-2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('http://localhost:8080/IslandPJ_war/resources/img//53455.jpg');
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+}
+
+.u-section-3 .u-container-layout-2 {
+    padding: 30px;
+}
+
+.u-section-3 .u-line-2 {
+    width: 276px;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+    margin: 0 auto 0 0;
+}
+
+.u-section-3 .u-text-4 {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    --animation-custom_in-scale: 0.3;
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.u-section-3 .u-text-5 {
+    margin: 12px auto 0 0;
+}
+
+.u-section-3 .u-image-3 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('http://localhost:8080/IslandPJ_war/resources/img/463e46.jpg');
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+}
+
+.u-section-3 .u-container-layout-3 {
+    padding: 30px;
+}
+
+.u-section-3 .u-line-3 {
+    width: 276px;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+    margin: 0 auto 0 0;
+}
+
+.u-section-3 .u-text-6 {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    --animation-custom_in-scale: 0.3;
+    font-weight: 700;
+    font-size: 1.875rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+.u-section-3 .u-text-7 {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    margin: 12px auto 0 0;
+}
+
+.u-section-3 .u-image-4 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('http://localhost:8080/IslandPJ_war/resources/img/r67y54.jpg');
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+}
+
+.u-section-3 .u-container-layout-4 {
+    padding: 30px;
+}
+
+.u-section-3 .u-line-4 {
+    width: 276px;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+    margin: 0 auto 0 0;
+}
+
+.u-section-3 .u-text-8 {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    --animation-custom_in-scale: 0.3;
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.u-section-3 .u-text-9 {
+    margin: 12px auto 0 0;
+}
+
+.u-section-3 .u-image-5 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('http://localhost:8080/IslandPJ_war/resources/img/6465.jpg');
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+}
+
+.u-section-3 .u-container-layout-5 {
+    padding: 30px;
+}
+
+.u-section-3 .u-line-5 {
+    width: 276px;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+    margin: 0 auto 0 0;
+}
+
+.u-section-3 .u-text-10 {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    --animation-custom_in-scale: 0.3;
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.u-section-3 .u-text-11 {
+    margin: 12px auto 0 0;
+}
+
+.u-section-3 .u-image-6 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('http://localhost:8080/IslandPJ_war/resources/img/tytytytyu.jpg');
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+}
+
+.u-section-3 .u-container-layout-6 {
+    padding: 30px;
+}
+
+.u-section-3 .u-line-6 {
+    width: 276px;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+    margin: 0 auto 0 0;
+}
+
+.u-section-3 .u-text-12 {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    --animation-custom_in-scale: 0.3;
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.u-section-3 .u-text-13 {
+    margin: 12px auto 0 0;
+}
+
+@media (max-width: 1199px) {
+    .u-section-3 .u-repeater-1 {
+        grid-template-columns: repeat(3, calc(33.333333333333336% - 20px));
+        min-height: 801px;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-3 .u-text-1 {
+        width: 720px;
+    }
+
+    .u-section-3 .u-repeater-1 {
+        grid-template-columns: repeat(2, calc(50% - 15px));
+        min-height: 1420px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-3 .u-text-1 {
+        font-size: 3rem;
+        width: 540px;
+    }
+
+    .u-section-3 .u-container-layout-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-section-3 .u-container-layout-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-section-3 .u-container-layout-3 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-section-3 .u-container-layout-4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-section-3 .u-container-layout-5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-section-3 .u-container-layout-6 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-3 .u-text-1 {
+        font-size: 1.875rem;
+        width: 340px;
+    }
+
+    .u-section-3 .u-repeater-1 {
+        grid-template-columns: 100%;
+        min-height: 2467px;
+    }
+
+    .u-section-3 .u-container-layout-1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .u-section-3 .u-container-layout-2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .u-section-3 .u-text-4 {
+        font-size: 1.5rem;
+    }
+
+    .u-section-3 .u-container-layout-3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .u-section-3 .u-text-6 {
+        font-size: 1.5rem;
+    }
+
+    .u-section-3 .u-container-layout-4 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .u-section-3 .u-text-8 {
+        font-size: 1.5rem;
+    }
+
+    .u-section-3 .u-container-layout-5 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .u-section-3 .u-text-10 {
+        font-size: 1.5rem;
+    }
+
+    .u-section-3 .u-container-layout-6 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .u-section-3 .u-text-12 {
+        font-size: 1.5rem;
+    }
+}.u-section-4 .u-sheet-1 {
+     min-height: 400px;
+ }
+
+.u-section-4 .u-text-1 {
+    margin-bottom: 60px;
+} .u-section-5 {
+      background-image: none;
+  }
+
+.u-section-5 .u-sheet-1 {
+    min-height: 640px;
+}
+
+.u-section-5 .u-layout-wrap-1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.u-section-5 .u-layout-cell-1 {
+    min-height: 500px;
+}
+
+.u-section-5 .u-container-layout-1 {
+    padding: 30px 60px;
+}
+
+.u-section-5 .u-text-1 {
+    margin: 0;
+}
+
+.u-section-5 .u-text-2 {
+    margin: 20px 0 0;
+}
+
+.u-section-5 .u-text-3 {
+    margin: 0;
+}
+
+.u-section-5 .u-text-4 {
+    margin: 0;
+}
+
+.u-section-5 .u-layout-cell-2 {
+    min-height: 500px;
+}
+
+.u-section-5 .u-container-layout-2 {
+    padding: 20px;
+}
+
+@media (max-width: 1199px) {
+    .u-section-5 .u-sheet-1 {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-5 .u-container-layout-1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-section-5 .u-container-layout-2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-5 .u-sheet-1 {
+        min-height: 400px;
+    }
+
+    .u-section-5 .u-layout-cell-1 {
+        min-height: auto;
+    }
+
+    .u-section-5 .u-container-layout-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-section-5 .u-container-layout-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

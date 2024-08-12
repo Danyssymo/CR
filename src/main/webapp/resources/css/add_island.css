@@ -1,0 +1,67 @@
+body {
+    background-image: url('http://localhost:8080/IslandPJ_war/resources/img/add_back3.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-style-add {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px; /* Размер текста */
+    color: white; /* Цвет текста */
+    font-family: 'Arial', sans-serif; /* Шрифт (можно заменить на другой) */
+    font-weight: bold; /* Полужирный текст для большей выразительности */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для улучшения читаемости на ярком фоне */
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container button:hover {
+    background-color: #218838;
+}
